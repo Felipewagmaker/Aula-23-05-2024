@@ -1,0 +1,73 @@
+@import url(https://db.onlinewebfonts.com/c/2e919b482573b2e90293c2db6519411e?family=Tatiana+W03+Regular);
+
+
+@font-face {
+    font-family: "Tatiana W03 Regular";
+    src: url("https://db.onlinewebfonts.com/t/2e919b482573b2e90293c2db6519411e.eot");
+    src: url("https://db.onlinewebfonts.com/t/2e919b482573b2e90293c2db6519411e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2e919b482573b2e90293c2db6519411e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2e919b482573b2e90293c2db6519411e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2e919b482573b2e90293c2db6519411e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2e919b482573b2e90293c2db6519411e.svg#Tatiana W03 Regular")format("svg");
+}
+
+
+body{
+    background-color: whitesmoke;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Tatiana W03 Regular";
+    gap: 10px;
+    font-size: 1.23rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ border: 2px solid black;
+ padding: 100px;
+ border-radius: 30px;
+gap: 30px;
+}
+
+.form-1{
+    display: flex;
+    gap:20px;
+}
+
+.form-1 input{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.form .buttons button{
+    font-family: "Tatiana W03 Regular";
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.res{
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    width: 250px;
+    height: 50px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexBut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
